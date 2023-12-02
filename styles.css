@@ -103,7 +103,6 @@ input#hitung:hover{
 #hasil3 {
 	text-align: center;
 	color: black;
-	overflow: hidden;
 }
 
 .animasi{
@@ -112,7 +111,10 @@ input#hitung:hover{
 
 @media screen and (max-width: 768px) {
 	.container{
-		width: 370px;
-		height: 90%;
+		width: 320px;
+	}
+
+	.judul{
+		font-size: 20px;
 	}
 }
