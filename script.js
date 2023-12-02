@@ -14,13 +14,10 @@ function total() {
 	const total = nilaiAbsen + nilaiTugas + nilaiUTS + nilaiUAS;
 
 	if (nilaiUAS == "" || nilaiUAS == null || nilaiUAS == 0) {
-		const min = (81 - total) / 0.4
-        hasil3.innerHTML=`ANDA HARUS MENDAPATKAN NILAI ${min} SAAT UAS JIKA INGIN NILAI A`
-	}else if( total < 81){
         const mins =Math.ceil(((81 - total) / 0.4 ) + (nilaiUAS/0.4))
         console.log
         hasil3.innerHTML=`ANDAS HARUS MENDAPATKAN NILAI ${mins} SAAT UAS JIKA INGIN NILAI A`
-    }else{
+	}else{
         hasil3.innerHTML=""
     }
 
