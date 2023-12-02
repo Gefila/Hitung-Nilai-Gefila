@@ -17,6 +17,7 @@ function total() {
         const mins =Math.ceil(((81 - total) / 0.4 ) + (nilaiUAS/0.4))
         console.log
         hasil3.innerHTML=`ANDA HARUS MENDAPATKAN NILAI ${mins} SAAT UAS JIKA INGIN NILAI A`
+		hasil3.classList.add('hasil3', 'animasi')
 	}else{
         hasil3.innerHTML=""
     }
