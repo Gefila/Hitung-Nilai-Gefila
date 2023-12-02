@@ -127,4 +127,8 @@ input#hitung:hover{
 	label div{
 		display: none;
 	}
+
+	::placeholder {
+		color: rgb(17, 17, 17);
+	}
 }
