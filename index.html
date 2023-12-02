@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="" name="tabel" onsubmit="event.preventDefault()">
+        <label for="absen" >
+            <div>ABSEN</div>
+            <input type="text" id="absen">
+        </label>
+        <label for="tugas">
+            <div>TUGAS</div>
+            <input type="text" id="tugas">
+        </label>
+        <label for="uts">
+            <div>UTS</div>
+            <input type="text" id="uts">
+        </label>
+        <label for="uas">
+            <div>UAS</div>
+            <input type="text" id="uas">
+        </label>
+        <label for="hitung">
+            <input type="submit" value="HITUNG" id="hitung" onclick="total()">
+        </label>
+    </form>
+
+    <div>HASIL : </div>
+    <span id="hasil"></span>
+    <div id="hasil2"></div>
+    <div id="hasil3"></div>
+    <script src="script.js"></script>
+</body>
+</html>
