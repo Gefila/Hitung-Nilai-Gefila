@@ -22,7 +22,7 @@ function total() {
     }
 
 	if (total >= 81) {
-		hasil.innerHTML = "A";
+		hasil.innerHTML = "A AMAN WAK";
 	} else if (total >= 71) {
 		hasil.innerHTML = "B";
 	} else if (total >= 60) {
