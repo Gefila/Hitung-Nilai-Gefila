@@ -2,8 +2,7 @@
 	box-sizing: border-box;
 	padding: 0;
 	margin: 0;
-    font-family: "Lexend Mega", sans-serif;
-
+	font-family: "Lexend Mega", sans-serif;
 }
 
 body {
@@ -11,27 +10,29 @@ body {
 	justify-content: center;
 	align-items: center;
 	height: 100vh;
-    background-color: #DAF5F0;
+	background-color: #daf5f0;
 }
 
 .judul {
 	font-family: "Lexend Mega", sans-serif;
 	font-size: 25px;
-    color: yellow;
+	color: rgb(0, 0, 0);
+	padding: 35px 0px;
 }
 
 .container {
-	background-color: #C4A1FF;
+	box-sizing: border-box;
+	background-color: #c4a1ff;
 	width: 400px;
-	height: 600px;
+	height: auto;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-	color: white;
-	border-radius: 15px;
-    border: black 4px solid;
-    box-shadow: 5px 5px 1px 3px yellow;
+	color: rgb(2, 2, 2);
+	border-radius: 10px;
+	border: black 4px solid;
+	box-shadow: 8px 8px 1px 2px rgb(0, 0, 0);
 }
 
 form {
@@ -44,20 +45,31 @@ label {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	padding: 20px;
+	padding: 17px 20px;
+	font-size: 25px;
 }
 
 input {
 	padding: 7px;
 	border-radius: 5px;
-	background-color: #E3DFF2;
 	color: rgb(22, 22, 22);
 	text-align: center;
 	outline: none;
 	border: none;
-    border: 2px solid black;
+	border: 2px solid black;
+    transition: .2s ease-in-out;
+    box-shadow: 2px 2px 1px 1px black;
 }
 
+input#hitung{
+    box-shadow: none;
+
+}
+
+input#hitung:hover{
+    box-shadow: 2px 2px 1px 1px black;
+
+}
 ::placeholder {
 	color: rgb(17, 17, 17);
 }
@@ -66,7 +78,16 @@ input {
 }
 
 #hasil3 {
-	background-color: paleturquoise;
 	text-align: center;
 	color: black;
+}
+
+#hasil {
+	font-size: 50px;
+    padding: 0px;
+    color: #FF6B6B;
+}
+
+#hasil2{
+    padding: 0;
 }
