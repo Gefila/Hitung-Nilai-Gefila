@@ -110,3 +110,9 @@ input#hitung:hover{
 	animation: append .3s linear;
 }
 
+@media screen and (max-width: 768px) {
+	.container{
+		width: 370px;
+		height: 90%;
+	}
+}
