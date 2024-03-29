@@ -22,7 +22,7 @@ function total() {
         hasil3.innerHTML=""
     }
 
-	if (total >= 81) {
+	if (total >= 85) {
 		hasil.innerHTML = "A";
 	} else if (total >= 71) {
 		hasil.innerHTML = "B";
