@@ -23,11 +23,11 @@ function total() {
 
 	if (total >= 86) {
 		hasil.innerHTML = "A";
-	} else if (total >= 71) {
+	} else if (total >= 76) {
 		hasil.innerHTML = "B";
-	} else if (total >= 60) {
+	} else if (total >= 66) {
 		hasil.innerHTML = "C";
-	} else if (total >= 50) {
+	} else if (total >= 56) {
 		hasil.innerHTML = "D";
 	} else {
 		hasil.innerHTML = "E";
