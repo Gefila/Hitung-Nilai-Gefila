@@ -1,48 +1,13 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>HITUNG NILAI</title>
-		<link rel="stylesheet" href="styles.css" />
-		<link rel="preconnect" href="https://fonts.googleapis.com" />
-		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-		<link
-			href="https://fonts.googleapis.com/css2?family=Lexend+Mega:wght@700&family=Poppins:wght@700&family=Rubik+Mono+One&display=swap"
-			rel="stylesheet"
-		/>
-	</head>
-	<body>
-		<div class="container">
-			<div class="judul">Hitung Nilai Akhir</div>
-			<form name="tabel" onsubmit="event.preventDefault()">
-				<label for="absen">
-					<div>ABSEN</div>
-					<input type="text" id="absen" placeholder="Masukkan Nilai Absen" />
-				</label>
-				<label for="tugas">
-					<div>TUGAS</div>
-					<input type="text" id="tugas" placeholder="Masukkan Nilai Tugas" />
-				</label>
-				<label for="uts">
-					<div>UTS</div>
-					<input type="text" id="uts" placeholder="Masukkan Nilai UTS" />
-				</label>
-				<label for="uas">
-					<div>UAS</div>
-					<input type="text" id="uas" placeholder="Masukkan Nilai UAS" />
-				</label>
-				<label for="hitung">
-					<input type="submit" value="HITUNG" id="hitung" onclick="total()" />
-				</label>
-			</form>
-
-			
-			<div>NILAI AKHIR : </div>
-			<span id="hasil" class="hasil"></span>
-			<div id="hasil2" class="hasil"></div>
-			<div id="hasil3" class="hasil"></div>
-			<script src="script.js"></script>
-		</div>
-	</body>
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hitung Nilai</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
 </html>

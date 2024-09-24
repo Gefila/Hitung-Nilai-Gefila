@@ -1,5 +1,8 @@
-# Hitung-Nilai
-LINK : https://gefila.github.io/Hitung-Nilai/
+# React + Vite
 
-![image](https://github.com/Gefila/Hitung-Nilai/assets/106391467/6a7df73d-2145-41da-9a53-06d63b0411b2)
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
+Currently, two official plugins are available:
+
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
