@@ -15,6 +15,7 @@ const Input = forwardRef(({ children, id, type = "number", placeholder, value, o
 				value={value}
 				onChange={(e) => onChangeInput(e.target.value)}
 				ref={ref}
+				required
 			/>
 		</div>
 	);
