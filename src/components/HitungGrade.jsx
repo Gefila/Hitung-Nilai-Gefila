@@ -26,37 +26,39 @@ export default function HitungGrade() {
 					Number(uts) * 0.3 +
 					Number(uas) * 0.4;
 				resolve(totalNilai);
+				console.log(totalNilai);
 			}, 1000);
 		});
 
-		if (totalNilai >= 91 && totalNilai <= 100) {
+		if (totalNilai >= 91 && totalNilai < 101) {
 			setGrade("A");
 			setMutu("4.00");
-		} else if (totalNilai >= 81 && totalNilai <= 90) {
+			console.log(totalNilai, grade, mutu);
+		} else if (totalNilai >= 81 && totalNilai < 91) {
 			setGrade("A-");
 			setMutu("3.70");
-		} else if (totalNilai >= 76 && totalNilai <= 80) {
+		} else if (totalNilai >= 76 && totalNilai < 81) {
 			setGrade("B+");
 			setMutu("3.30");
-		} else if (totalNilai >= 71 && totalNilai <= 75) {
+		} else if (totalNilai >= 71 && totalNilai < 76) {
 			setGrade("B");
 			setMutu("3.00");
-		} else if (totalNilai >= 66 && totalNilai <= 70) {
+		} else if (totalNilai >= 66 && totalNilai < 71) {
 			setGrade("B-");
 			setMutu("2.70");
-		} else if (totalNilai >= 61 && totalNilai <= 65) {
+		} else if (totalNilai >= 61 && totalNilai < 66) {
 			setGrade("C+");
 			setMutu("2.30");
-		} else if (totalNilai >= 56 && totalNilai <= 60) {
+		} else if (totalNilai >= 56 && totalNilai < 61) {
 			setGrade("C");
 			setMutu("2.00");
-		} else if (totalNilai >= 51 && totalNilai <= 55) {
+		} else if (totalNilai >= 51 && totalNilai < 56) {
 			setGrade("C-");
 			setMutu("1.70");
-		} else if (totalNilai >= 36 && totalNilai <= 50) {
+		} else if (totalNilai >= 36 && totalNilai < 51) {
 			setGrade("D");
 			setMutu("1.00");
-		} else if (totalNilai >= 0 && totalNilai <= 35) {
+		} else if (totalNilai >= 0 && totalNilai < 36) {
 			setGrade("E");
 			setMutu("0.00");
 		}
@@ -146,7 +148,14 @@ export default function HitungGrade() {
 			{!totalNilai && !isLoading && (
 				<div className="bg-zinc-600 rounded-md p-4 mt-4 min-h-[180px] flex justify-center items-center text-2xl text-white font-light flex-col anima">
 					<div>Created by</div>
-					<div>Gefila Zona Pranata</div>
+					<div>
+						<a
+							href="https://www.instagram.com/gefilazonap/"
+							target="_blank"
+						>
+							Gefila Zona Pranata
+						</a>
+					</div>
 				</div>
 			)}
 
