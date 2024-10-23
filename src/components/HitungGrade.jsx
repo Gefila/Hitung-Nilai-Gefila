@@ -26,7 +26,6 @@ export default function HitungGrade() {
 					Number(uts) * 0.3 +
 					Number(uas) * 0.4;
 				resolve(totalNilai);
-				console.log(totalNilai);
 			}, 1000);
 		});
 
