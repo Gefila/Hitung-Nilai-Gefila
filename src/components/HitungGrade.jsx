@@ -139,13 +139,13 @@ export default function HitungGrade() {
 			</div>
 
 			{isLoading && (
-				<div className="bg-zinc-600 rounded-md p-4 mt-4 min-h-[180px] flex justify-center items-center text-2xl text-white font-light lg:w-1/2">
+				<div className="bg-zinc-600 w-full rounded-md p-4 mt-4 min-h-[180px] flex justify-center items-center text-2xl text-white font-light lg:w-1/2">
 					<span className="animate-pulse">Loading...</span>
 				</div>
 			)}
 
 			{!totalNilai && !isLoading && (
-				<div className="bg-zinc-600 rounded-md p-4 mt-4 min-h-[180px] flex justify-center items-center text-2xl text-white font-light flex-col anima lg:w-1/2">
+				<div className="bg-zinc-600 w-full rounded-md p-4 mt-4 min-h-[180px] flex justify-center items-center text-2xl text-white font-light flex-col anima lg:w-1/2">
 					<div>Created by</div>
 					<div>
 						<a

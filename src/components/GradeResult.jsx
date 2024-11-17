@@ -1,6 +1,6 @@
 export default function GradeResult({ grade, mutu, keterangan, totalNilai }) {
 	return (
-		<div className="bg-zinc-600 rounded-md p-4 mt-4 min-h-[180px] lg:w-1/2">
+		<div className="bg-zinc-600 w-full rounded-md p-4 mt-4 min-h-[180px] lg:w-1/2">
 			<div className="flex flex-col gap-3 text-lg">
 				<div className="flex justify-between">
 					<span className="text-white">Grade</span>
