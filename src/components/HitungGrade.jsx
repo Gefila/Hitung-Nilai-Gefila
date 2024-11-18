@@ -83,7 +83,7 @@ export default function HitungGrade() {
 	}, []);
 
 	return (
-		<div className="flex flex-col items-center">
+		<div className="flex flex-col items-center h-screen w-full bg-zinc-900 p-5">
 			<div className="w-full bg-zinc-600 rounded-md p-4 lg:w-1/2">
 				<Header>Hitung Grade</Header>
 				<form className="flex flex-col gap-3" onSubmit={hitungGrade}>
